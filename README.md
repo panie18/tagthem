@@ -105,33 +105,6 @@ If you provide a UMD build or bundle, include it via a script tag and use a glob
 </script>
 ```
 
-### CLI (if available)
-
-If the project exposes a CLI, typical usage might look like:
-
-```bash
-# list tags
-tagthem list-tags
-
-# attach a tag to an item
-tagthem add-tag --item item-123 --tag urgent
-```
-
-(If there is no CLI in the repo yet, consider adding one as a small enhancement.)
-
-## API (example)
-
-Provide a short reference for core classes / functions here. Update these examples to reflect the repository's actual exported API.
-
-- TagManager
-  - createTag(name: string): void
-  - deleteTag(name: string): void
-  - renameTag(oldName: string, newName: string): void
-  - addTag(itemId: string, tagName: string): void
-  - removeTag(itemId: string, tagName: string): void
-  - getTags(itemId: string): string[]
-  - getItemsByTag(tagName: string): string[]
-
 ## Development
 
 Suggested development workflow:
